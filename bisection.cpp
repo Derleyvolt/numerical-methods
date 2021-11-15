@@ -23,7 +23,6 @@ double bisection(double a, double b, int iter_max, double eps = 0.0001) {
         }
 
         interval = interval/2.0;
-
         k++;
     }
 }
