@@ -10,7 +10,7 @@ double G(double x) {
     return -log(x);
 }
 
-double newton_rap(double x0, int iter_max = 1000, double eps = 0.00001) {
+double newton_rap(double x0, int iter_max = 1000, double eps = 1e-4) {
     double x1;
     int k = 0;
     while(1) {
